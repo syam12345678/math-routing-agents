@@ -1,0 +1,52 @@
+# Core AI and ML libraries
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+langgraph>=0.0.20
+dspy-ai>=2.4.0,<3.0.0
+openai>=1.6.0
+
+# Vector database and embeddings
+qdrant-client>=1.7.0
+sentence-transformers>=2.2.2
+chromadb>=0.4.18
+
+# Web search and MCP
+tavily-python>=0.3.0
+exa-py>=1.0.0
+# Note: MCP is not available as a pip package, using alternative
+httpx>=0.25.0
+
+# FastAPI and web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.0.0
+python-multipart>=0.0.6
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+tf-keras>=2.15.0
+
+# Math and scientific computing
+sympy>=1.12
+matplotlib>=3.8.0
+scipy>=1.11.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Additional dependencies for the project
+# Note: don't list Python standard-library modules here (sqlite3, asyncio, logging,
+# json, pathlib, datetime, dataclasses, typing are part of the stdlib and will
+# cause pip to fail if included). Only third-party packages should be listed.
+
+# Development and testing
+pytest>=7.4.0
+black>=23.11.0
+flake8>=6.1.0
